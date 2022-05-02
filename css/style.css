@@ -1,0 +1,867 @@
+h1{
+    color: #1F4C33;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 11px;
+    font-size: 48px;
+}
+
+h2{
+    color: #1F4C33;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    font-size: 30px;/*difference**/
+    
+}
+
+h3{
+    color: #ffff;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 22px;/*difference*/
+}
+h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: calc(1.065rem + .1vw);
+    text-align: center;
+   
+}
+
+h5{
+     font-family:'Open Sans', sans-serif;
+     font-size: 1.1rem;
+     font-weight: bolder;
+     
+}
+p{
+    font-size: 14px;/*diference*/
+}
+ol{
+    text-align: center;
+}
+.bg-light {
+    background-color:rgba(253, 250, 250, 0.808) !important;
+}
+
+@import url('https///fonts.googleapis.com/css?family=lato:400,700');
+
+body{
+    background-color: #ffff;
+    overflow-x: hidden;
+    font-family:'Open sans', sans-serif;
+}
+/*Navbar*/
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(209, 175, 130, 0.932);
+    font-weight: bold;
+}
+a.nav-link{
+    font-size: 11px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgba(27, 24, 24, 0.788);
+}
+a:visited{
+    color: #f5ba5c;
+}
+
+header{
+    position: fixed;
+    z-index: 100;
+    height: 50px;
+}
+
+.all{
+   height: 200px;
+   background-image: url("assets/images/landchina1.jpg"); 
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+main{
+    padding-top:200px;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0rem; 
+    padding-bottom: 0rem; 
+    background-size: cover;
+    background-color: #e9f0ea;
+    
+}
+.navbar-brand {
+    padding-top: 0rem; 
+    padding-left: 2.0225rem;
+    padding-bottom: 0rem;
+    margin-right: 20.9rem;
+    font-size: 5.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+    border:none;
+    height: 50px;
+}
+#navbarSupportedContent{
+    background-color:#1f4c33f8;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    
+}
+.navbar-light .navbar-toggler-icon {/**********************Menu burger*************************************/
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(73, 77, 77, 0.699)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  color: rgba(73, 77, 77, 0.699);
+  width: 28px;
+  height: 28px;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0);
+    border-color: rgba(0,0,0,0);
+    padding-right: 1.30rem;
+  }
+  .navbar-toggler-icon:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 .0rem;
+  }
+ul.ml-md-auto{
+    float: right;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    min-width: 335px;
+}
+.navbar-nav li{
+    padding-right: 0.7rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color:#1F4C33;
+    padding-top:.8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #646b67;
+    padding-top: 0.8rem;
+}
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: 15s ease-in-out;
+  }
+/*Fin navbar*/
+.carousel-item {
+    height: 100vh;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*--Slider--*/
+
+.medecine{
+    min-height: 42vh;
+    background-color: #1F4C33;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 35px ;
+    padding-right: 35px;
+    padding-bottom: 30px;
+    font-weight: lighter;
+}
+.grandTitre{
+    background-color: #f2f7f4b7;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.description{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 9px;
+    font-size: 16px;/*dif*/
+}
+
+a.btnmilieu{
+    width:250px;
+    height: 48px;
+    margin: 0 auto;
+    display: block;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    background-color: #f5ba5c;
+    border: 3px solid rgb(245, 209, 4);
+    border-radius: 7px;
+    font-size: 14px;
+    color: #e9f0ea; 
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+a.btndroite{
+    border: 3px solid rgb(245, 209, 4);
+    font-family: 'Kanit', sans-serif;/*dif*/
+    background-color: #f5ba5c;
+    border-radius: 7px;
+    position: absolute; 
+    margin-top: 0px;
+    right: 0;
+    width:300px;
+    height: 45px;
+    font-size: 14px;
+    color: #fbf5eb;/*dif*/
+    font-style: normal;/*dif*/
+    text-transform: uppercase;/*dif*/
+    font-weight: bold;/*dif*/
+}
+
+.btnmilieu:hover{
+    color:#f5ba5c;;
+    background-color: rgb(255, 255, 255);
+}
+.btndroite:hover{
+    color:#f5ba5c;;
+    background-color: rgb(255, 255, 255);
+}
+/**--Parallax Home--**/
+.parallax {
+   
+    background-image: url("../assets/images/zen.jpg");
+    min-height: 200px; 
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+/**-- FIN Parallax Home--**/
+  .choix{
+      min-height:500px;
+      background-image: url('../assets/images/wallpaper.jpg');
+      background-position: fixed;
+      background-size: cover;
+      padding-top: 30px;
+      padding-bottom: 30px;
+  }
+
+  .bouddha{
+    background-image: url('../assets/images/face.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height:60vh;
+  }
+  .ambiance{
+    min-height: 68.5vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    color: #ffff;
+    background-color: #1F4C33;
+    padding: 13px 35px 25px 35px;
+    text-align: center;
+  }
+ 
+ .container, .container-fluid, .col{
+     padding: 0px;
+ }
+ .carousel-item {
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 300px;
+ }
+ /*PASTILLES*/
+
+  .pastille{
+    padding-right: calc(var(--bs-gutter-x) * .1);
+    padding-left: calc(var(--bs-gutter-x) * .1);
+    margin-top: calc(var(--bs-gutter-y) * .2);
+  }
+ 
+  .carousel-indicators {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 60%;
+    padding-left: 0;
+    padding-top: 30px;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+  }
+  .item{
+      padding: 3px;
+  }
+  
+  .img-fluid:hover{ opacity: 0.7;}
+  
+  li{
+    padding: 0px;
+  }
+  ul{
+      padding: 0;
+      margin: 0;
+      font-size: 14px;
+  }
+  .fa-twitter, .fa-facebook-f{
+      font-weight:bolder;
+      margin: 4px;
+      color: black;
+  }
+  .listfoot{
+      display: flex;
+  }
+  .Copyright p{
+      text-align: center;
+  }
+  .baspage{
+      text-align: right;
+  }
+  .hauteur{
+    padding-top:20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  footer{
+      font-family: 'Open sans', sans-serif;
+      font-weight: bolder;
+      color: #1F4C33;
+      padding: 6px;
+  }
+  .px-2 {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+  }
+/***************************Tarifs version Mobile******************************************/
+/*******************************************************************************************/
+/*******************************************************************************************/
+/*******************************************************************************************/
+.Hand{
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+.Hand img{
+    width: 50px;
+    height: 50px;
+}
+.Hand p{
+    margin:0px;
+    font-size: 14px;
+}
+.Hand h1{
+    font-size: 27px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.Hand h2{
+    color: black;
+    font-weight:bold;
+}
+.Hand h3{
+    font-size: 18px;
+    font-weight: bolder;
+    color: rgb(134, 180, 130);
+}
+/**************************FIN tarifs version Mobile****************************************/
+/*******************************************************************************************/
+/*******************************************************************************************/
+/*******************************************************************************************/
+/**************************Acupuncture Version Mobile***************************************/
+.equilibre{
+    background-color: #1F4C33;
+    height: 440px;
+    color: #e9f0ea;
+    text-align: center;
+    font-family: 'Open Sans' sans-serif;
+    
+}
+.equilibre h1{
+    margin-bottom:1.5rem ;
+    color: #e9f0ea;
+    font-size: 14px;
+    text-align: center;
+}
+.clinique{
+    padding-left: 50px;
+    float: left;
+}
+.clinique p{
+    font-size: 14px;   
+}
+.clinique img{
+    margin-left: 0px;
+    margin-bottom: 10px;
+    width: 70%;
+    height: auto;
+}
+.clinique h4,ul{
+    font-weight: bold;
+    float: left;
+    margin-bottom: 10px;
+}
+.clinique ul{
+    font-size:14px;
+    
+}
+.bienfaits {
+    padding-left: 1.5rem;
+    padding-right: auto;
+    text-align: center;
+    height: 225px;
+    font-weight: medium;
+}
+.bienfaits h2{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+.parallax1{
+    background-image: url("../assets/images/epaule.jpg");
+    min-height: 200px; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.regle{
+    
+    text-align: center;
+}
+.regle img{
+    padding: 0 auto;
+    padding-top: 60px;
+    text-align: center;
+}
+.traitAcu{
+    min-height: 350px;
+    background-color: rgb(213,189,154);
+}
+
+.traitAcu img{
+    padding: 0;
+    text-align: left;
+    min-width: 400px;
+    min-height: 350px;
+}
+.medoc img{
+    width: 180px;
+    height: auto;
+}
+.approche img{
+    width: 183px;
+    height: 119px;
+}
+.medoc p,.approche p{padding: 11px;}
+.medoc img, .approche img, .medoc h4,.approche h4{ margin-bottom: 5px;}
+.medoc h4,.approche h4{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Montserrat' sans-serif;
+}
+/************************FIN Acupuncture Version Mobile*************************************/
+ 
+/*******************************************************************************************/
+/*******************************************************************************************/
+/*******************************************************************************************/
+/**************************Troubles Version Mobile******************************************/
+.healthp{
+    background-color: #fbf5eb;
+    border: 5px solid #ffff;
+}
+.troubles ul{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight:normal;
+}
+.troubles h4{
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+.salle{
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+.salle img{
+    width:80%;
+    border-top-left-radius: 8px;
+    
+   
+    box-shadow:5px 5px #1F4C33 ;
+
+}
+.espaceTitre{
+    height: 100px;
+}
+/****Caroussel Troubles Mobile*****/
+
+
+/****FIN Caroussel Mobile****/
+/**************************FIN Troubles Version Mobile*************************************/
+
+/*******************************************************************************************/
+/*******************************************************************************************/
+/*******************************************************************************************/
+/**************************Biographie Version Mobile******************************************/
+
+.bio{
+    font-size:10px;
+    min-height: 430px;
+}
+.bio img{
+    margin-left: 0px;
+    margin-bottom: 10px;
+    width: 90%;
+    height: auto;
+}
+.bio h3{
+ color: #1F4C33;
+ margin-right: 250px;
+}
+.bio p{
+    margin-left: 0px;
+}
+.formationPro{
+    border-radius: 5px;
+    background-color: #1F4C33;
+    min-height: 200px;
+}
+.formationPro h4{
+    margin-top: 15px;
+    color: #ffff;
+}
+.formationPro ul{
+    margin-top: 15px;
+    color: #ffff; 
+}
+.formationPro li{
+    font-weight: lighter;
+}
+.reception img{
+  
+  width:100%;
+  height: auto;
+}
+.parallax2 {
+   
+    background-image: url("../assets/images/confucius.webp");
+    min-height: 200px; 
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .signature{
+      text-align: center;
+      min-height: 200px;
+      width: 400px;
+  }
+  .signature a{
+      margin: 0 auto;
+  }
+  .signature p{
+      margin: 0 auto;
+      text-align: center;
+  }
+  /**************************FIN Biographie Version Mobile******************************************/
+  /************************************************************************************************/
+  /***********************************************************************************************/
+  /**********************************************************************************************/
+  /**********************************************************************************************/
+  /*********************************Contact Version Mobile**************************************/
+  .contact img{
+    float: right ;
+    margin-right: 15px;
+ }
+ .contact p{
+     text-align: center;
+     font-size: 14px;
+     font-weight: 400;
+     
+ }
+ .contact h2{
+    margin-bottom: 100px;
+ }
+  
+  
+  
+  .contact h2{
+      text-align: center;
+  }
+ 
+  section#appointment .container .formulaire{
+       width: 95%;
+   }
+   section#appointement .container .formulaire input.nom-famille,
+   section#appointement .container .formulaire input.nom-email,
+   section#appointement .container .formulaire input.nom-numero-tel,
+   section#appointement .container .formulaire input.nom-date,
+   section#appointement .container .formulaire input.nom-horaire{
+       width: 100%;
+   }
+
+   section#appointement .container{
+       padding: 30px 10px;
+   }
+
+
+
+
+
+
+  /*********************************FIN Contact Version Mobile**********************************/
+ @media (min-width: 992px) { 
+
+    body{
+        background-color: #ffff;
+        overflow-x: hidden;
+        font-family:'Open sans', sans-serif;
+    }
+    .bg-light {
+        background-color:#ffff !important;
+    }
+    .all{
+        height: 300px;
+       background-image: url("../assets/images/landchina1.jpg"); 
+       background-repeat: no-repeat;
+       background-size: cover;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-top: 4.5rem;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+        
+    }
+    #navbarSupportedContent{
+        background-color:#fffffff8;
+    }
+    .medecine{
+        min-height: 42vh;
+        background-color: #1F4C33;
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+        padding-left: 35px ;
+        padding-right: 35px;
+        padding-bottom: 30px;
+        font-weight: lighter;
+    }
+
+    .ambiance{
+        min-height: 68.5vh;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: lighter;
+        font-size: 16px;
+        color: #ffff;
+        background-color: #1F4C33;
+        padding: 13px 35px 25px 35px;
+        text-align: center;
+      }
+    .description{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 9px;
+        font-size: 16px;
+    }
+    a.nav-link{
+        font-size: 18px;
+        font-weight: bolder;
+        padding: 1.7rem;
+    }
+    .navbar-brand {
+        padding-top: 0rem; 
+        padding-left: 2.0225rem;
+        padding-bottom: 0rem;
+        margin-right: 25.9rem;
+        font-size: 5.25rem;
+        text-decoration: none;
+        white-space: nowrap;
+        border:none;
+        height: 100px;
+    }
+    
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+      min-width: 1620px;
+    }
+    .navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
+        display: block;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .lemenu{
+          background-color: #ffff;
+      }
+    .item{
+        text-align: center;
+        background-size: cover;
+    }
+    .listfoot{
+        text-align: right;
+    }
+
+    footer{
+        font-family: 'Open sans', sans-serif;
+        font-weight: bolder;
+        color: #1F4C33;
+        padding: 6px;
+    }
+    ul{
+        font-size: 14px;
+        font-weight: bold;
+    }
+    h5{
+        font-weight: 900;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .Copyright p{
+        font-size: 11px;
+
+        
+    }
+}
+  /**************************FIN Biographie Version Mobile******************************************/
+  /************************************************************************************************/
+  /***********************************************************************************************/
+  /**********************************************************************************************/
+  /**********************************************************************************************/
+  /*********************************Contact Version Mobile**************************************/  
+ /***********************************formulaire Desktop****************************************/
+ .contact img{
+   float: right ;
+   margin-right: 150px;
+}
+.contact p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+.contact h2{
+margin-bottom: 100px;
+}
+ 
+ 
+ .formulaire h2{
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+section#appointment .container{
+     background-color: #ffffff;
+     padding: 25px 20px;
+     min-width:390px;
+     max-width: 1600px;
+     height: 540px;
+     margin: 0 auto;
+     display: block;
+     justify-content: space-evenly;
+     align-items: center;
+     flex-direction: row;
+     border-radius: 15px;
+     box-shadow: 0px 10px 20px -5px rgb(133, 129, 129);
+}
+section#appointment .container .formulaire{
+    width: 100%;
+}
+section#appointment .container h2{
+    font-size: 2.5em;
+    color: #1F4C33;
+    margin-bottom: 50px;
+}
+section#appointment .container .formulaire form{
+   
+    display: block;
+}
+section#appointment textarea{
+    width: 100%;
+    height: 100px;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #ffffff;
+    transition: 1.5s;
+    border: 1px solid rgb(203, 201, 201);
+    box-shadow: inset 5px 5px 5px -5px rgb(203, 201, 201);
+
+}
+section#appointment .container .formulaire input{
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #ffffff;
+    transition: 1.5s;
+    border: 1px solid rgb(203, 201, 201);
+    box-shadow: inset 5px 5px 5px -5px rgb(203, 201, 201);
+}
+section#appointment .container .formulaire input:hover{
+   border-bottom: 2px solid #199637;
+}
+section#appointment .container .formulaire input.nom-famille,
+section#appointment .container .formulaire input.email{
+    width:100%;
+}
+section#appointment .container .formulaire input.numero-telephone{
+    width:45%;
+
+}
+section#appointment .container .formulaire input.numero-tel,
+section#appointment .container .formulaire input.date,
+section#appointment .container .formulaire input.horaire{
+    width: 100%;
+}
+section#appointment .container .formulaire button.submit-btn{
+ width: 200px;
+ height: 45px;
+ margin-left:100px;
+ margin-right: 100px;
+ border-radius:  8px;
+ border: none;
+ background-color:#f5ba5c  ;
+ color: #ffff;
+ font-weight: 800;
+ font-size: 1.2em;
+ font-family: 'Open sans' sans-serif;
+ text-transform: uppercase;
+ font-size: normal;
+ font-weight: bolder;
+ cursor:pointer;
+ margin-top: 30px;
+ outline:none;
+ 
+}
+section#appointment .container .formulaire button.submit-btn:hover{
+background-color:#fbf5eb;
+border: 2px solid #f5ba5c;
+color: #f5ba5c;
+}
+section#appointment{
+
+    margin: 0 auto;
+    width: 30%;
+    background-color: #ffff;
+    margin-top: 40px;
+}
+section#appointment .container .formumlaire{
+ font-size: 2em;
+ background-color: #ffff;
+}
+
+/*************************** FIN formulaire Desktop*********************/
+
